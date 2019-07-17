@@ -73,10 +73,11 @@ Wedding City:<input  id="00N3i000001zkQL" maxlength="128" name="00N3i000001zkQL"
 <input type="submit" name="submit">
 
 </form>
+
+<br><br><br>
+<h3>Do you need help? Please submit this form.</h3>
       
-      <h3>Do you need help? Please submit this form.</h3>
-      
- <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
 
 <input type=hidden name="orgid" value="00D3i000000E9Vl">
 <input type=hidden name="retURL" value="https://jgmil.github.io/masters-of-matrimony-thank-you/">
@@ -91,18 +92,24 @@ Wedding City:<input  id="00N3i000001zkQL" maxlength="128" name="00N3i000001zkQL"
 
 <label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
 
-<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+<label required for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
 <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
 
-<label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+<label required for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+
+<label required for="reason">Case Reason</label><select  id="reason" name="reason"><option value="">--None--</option><option value="RSVP / Meal Inquiry">RSVP / Meal Inquiry</option>
+<option value="Travel Logistics">Travel Logistics</option>
+<option value="Vendor / Venue Issue">Vendor / Venue Issue</option>
+<option value="Bridal Party Attire">Bridal Party Attire</option>
+<option value="Other">Other</option>
+</select><br>
 
 <label for="description">Description</label><textarea name="description"></textarea><br>
 
 <input type="submit" name="submit">
 
 </form>
-
 
 
     </main>
