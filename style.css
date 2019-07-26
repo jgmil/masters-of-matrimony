@@ -2,12 +2,12 @@ html {
 	font-family: 'Italianno', cursive;
 }
 h2, h3 {
-	font-size: 36px;
+	font-size: 48px;
 }
 
-body, p {
+body {
 	padding: 50px;
-	font-size: 24px;
+	font-size: 32px;
 }
 form {
 	width: 50%,
