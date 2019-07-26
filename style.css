@@ -10,10 +10,10 @@ form {
 	margin: 0 auto; 
 }
 
-input[type=text] {
+input {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 4px 0 16px;
   box-sizing: border-box;
   border: none;
   border-bottom: 2px solid red;
