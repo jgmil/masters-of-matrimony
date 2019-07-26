@@ -26,3 +26,9 @@ input, textarea, select {
   border: none;
   border-bottom: 2px solid red;
 }
+
+input[type="submit"] {
+   border: 2px solid red;
+   width: 33%;
+}
+	
