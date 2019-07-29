@@ -1,5 +1,7 @@
-html {
+ html {
 	font-family: 'Italianno', cursive;
+	padding: 30px;
+	text-align: center;
 }
 h2, h3 {
 	font-size: 48px;
