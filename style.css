@@ -9,7 +9,7 @@ h2, h3 {
 
 body {
 	padding: 50px;
-	font-size: 32px;
+	font-size: 30px;
 }
 form {
 	width: 50%;
@@ -29,7 +29,7 @@ select {
 input, textarea, select {
   width: 100%;
   padding: 12px 20px;
-  margin: 4px 0 16px;
+  margin: 4px 0 24px;
   box-sizing: border-box;
   border: none;
   border-bottom: 2px solid red;
